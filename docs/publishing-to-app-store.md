@@ -29,7 +29,7 @@ To configure your app to be built using the `Release` scheme, go to **Product** 
 
 #### Pro Tips
 
-As your App Bundle grows in size, you may start to see a blank screen flash between your splash screen and the display of your root application view. If this is the case, you can add the following code to `AppDelegate.m` in order to keep your splash screen displayed during the transition.
+As your App Bundle grows in size, you may start to see a blank screen flash between your splash screen and the display of your root application view. If this is the case, you can add the following code to `AppDelegate.mm` in order to keep your splash screen displayed during the transition.
 
 ```objectivec
   // Place this code after "[self.window makeKeyAndVisible]" and before "return YES;"
